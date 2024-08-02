@@ -1,7 +1,6 @@
 name: Build HelloWorld Project for Linux
 
 on:
-  push:
   pull_request:
   workflow_dispatch:
 
