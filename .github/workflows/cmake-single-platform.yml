@@ -2,6 +2,7 @@ name: Build HelloWorld Project for Linux
 
 on:
   pull_request:
+    types: [opened, edited, synchronize]
   workflow_dispatch:
 
 jobs:
